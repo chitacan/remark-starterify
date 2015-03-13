@@ -103,7 +103,8 @@ gulp.task 'index', ->
     .pipe gulp.dest 'dist'
 
 gulp.task 'watchTask', ->
-  gulp.watch P.scss, ['styles']
+  gulp.watch P.image, ['image']
+  gulp.watch P.scss,  ['styles']
   gulp.watch P.slide, ['slide']
 
 gulp.task 'watch', ['clean'], ->
