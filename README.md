@@ -28,4 +28,4 @@ Depoly to `gh-pages` with
 ## Make Slideshow
 
 * To make slideshow, edit `app/content/slide.md` ([see](https://github.com/gnab/remark/wiki/Markdown))
-* To make script component(with [react](http://facebook.github.io/react/), edit `app/scripts/app.coffee`
+* To make script component(with [react](http://facebook.github.io/react/)), edit `app/scripts/app.coffee`
