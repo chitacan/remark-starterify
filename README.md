@@ -1,14 +1,17 @@
 # Remark Starterify
 
-:sparkles:Flash:sparkles: start to build [Remark](https://github.com/gnab/remark) based on [react-starterify](https://github.com/chitacan/react-starterify)
+:rocket:Fast develop & deploy [Remark](https://github.com/gnab/remark) slideshow based on [react-starterify](https://github.com/chitacan/react-starterify)
 
 ## Usage
 
-Make sure you have [node](https://nodejs.org/), [node-gyp](https://github.com/TooTallNate/node-gyp), [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)
+Make sure you have [node](https://nodejs.org/), [node-gyp](https://github.com/TooTallNate/node-gyp), [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), [bower](http://bower.io/#install-bower) :hand:
 
-Before to get started, clone & remove `./git` to start your own.
+Before to get started, clone this project. (remove `./git` to start your own.)
 
-    $ git clone chitacan/remark-starterify && rm -rf .git/
+    $ git clone chitacan/remark-starterify
+    $ cd remark-starterify
+    $ rm -rf .git/
+    $ npm install && bower install
 
 Start developing with
 
@@ -21,3 +24,8 @@ Build with
 Depoly to `gh-pages` with
 
     $ gulp deploy
+
+## Make Slideshow
+
+* To make slideshow, edit `app/content/slide.md` ([see](https://github.com/gnab/remark/wiki/Markdown))
+* To make script component(with [react](http://facebook.github.io/react/), edit `app/scripts/app.coffee`
