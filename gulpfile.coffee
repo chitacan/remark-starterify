@@ -21,16 +21,19 @@ reactify     = require 'coffee-reactify'
 
 reload = browserSync.reload
 
-P  =
+P =
   app    : './app/scripts/app.coffee'
   scss   : './app/styles/main.scss'
   slide  : './app/content/slide.md'
   image  : './app/images/*'
-  remark : './bower_components/remark/out/remark.min.js'
   bundle : 'app.js'
   distJs : 'dist/js'
   distCss: 'dist/css'
   distImg: 'dist/img'
+
+DEPS = [
+  './bower_components/remark/out/remark.min.js'
+]
 
 gulp.task 'clean', (cb) ->
   del ['dist'], cb
@@ -48,8 +51,8 @@ gulp.task 'watchify', ->
       .on 'error', notify.onError()
       .pipe source P.bundle
       .pipe buffer()
-      # append remark.min.js
-      .pipe addsrc P.remark
+      # append bower dependencies
+      .pipe addsrc DEPS
       .pipe concat P.bundle
       .pipe gulp.dest P.distJs
       .pipe reload stream: true
