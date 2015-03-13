@@ -1,12 +1,12 @@
 # Remark Starterify
 
-:rocket:Fast develop & deploy [Remark](https://github.com/gnab/remark) slideshow based on [react-starterify](https://github.com/chitacan/react-starterify)
+:rocket: Fast develop & deploy [Remark](https://github.com/gnab/remark) slideshow based on [react-starterify](https://github.com/chitacan/react-starterify)
 
 ## Usage
 
 Make sure you have [node](https://nodejs.org/), [node-gyp](https://github.com/TooTallNate/node-gyp), [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), [bower](http://bower.io/#install-bower) :hand:
 
-Before to get started, clone this project. (remove `./git` to start your own.)
+Before to get started, clone this project. (remove `./git` to fresh start)
 
     $ git clone chitacan/remark-starterify
     $ cd remark-starterify
