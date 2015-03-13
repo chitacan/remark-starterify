@@ -12,7 +12,7 @@ class: center, middle
 [NOTE]: Note that you need active internet connection to access remark.js script file
 ---
 
-background-image: url(dist/img/renote_back_color_none.jpg)
+background-image: url(img/renote_back_color_none.jpg)
 
 # Introduction
 
