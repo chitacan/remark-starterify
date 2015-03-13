@@ -7,4 +7,4 @@ MyComponent = require './components/mycomponent.coffee'
 # React.render <MyComponent />, document.getElementById 'content'
 
 slide = remark.create
-  sourceUrl : 'dist/slide.md'
+  sourceUrl : 'slide.md'
