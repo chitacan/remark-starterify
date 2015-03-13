@@ -37,7 +37,7 @@ gulp.task 'clean', (cb) ->
 
 gulp.task 'browserSync', ->
   browserSync
-    server: baseDir: './'
+    server: baseDir: './dist'
 
 gulp.task 'watchify', ->
   bundler = watchify browserify P.app, watchify.args
@@ -95,18 +95,22 @@ gulp.task 'image', ->
   gulp.src P.image
     .pipe gulp.dest P.distImg
 
+gulp.task 'index', ->
+  gulp.src 'index.html'
+    .pipe gulp.dest 'dist'
+
 gulp.task 'watchTask', ->
   gulp.watch P.scss, ['styles']
   gulp.watch P.slide, ['slide']
 
 gulp.task 'watch', ['clean'], ->
-  gulp.start ['browserSync', 'watchTask', 'watchify', 'slide', 'styles', 'image']
+  gulp.start ['browserSync', 'watchTask', 'watchify', 'slide', 'styles', 'image', 'index']
 
 gulp.task 'build', ['clean'], ->
   process.env.NODE_ENV = 'production'
-  gulp.start ['browserify', 'slide', 'styles', 'image']
+  gulp.start ['browserify', 'slide', 'styles', 'image', 'index']
 
-gulp.task 'deploy', ['build'],  ->
+gulp.task 'deploy', ['build', 'browserify'],  ->
   gulp.src './dist/**/*'
     .pipe deploy()
 
