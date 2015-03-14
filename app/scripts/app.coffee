@@ -8,5 +8,5 @@ MyComponent = require './components/mycomponent.coffee'
 
 slide = remark.create
   sourceUrl         : 'slide.md'
-  highlightStyle    : 'solarized_light'
+  highlightStyle    : 'monokai'
   highlightLanguage : 'remark'

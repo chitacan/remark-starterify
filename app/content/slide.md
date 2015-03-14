@@ -1,14 +1,29 @@
-name: inverse
 layout: true
-class: center, middle, inverse
+class: center, middle
 ---
-background-image: url(img/renote_back_color_none.jpg)
-#remark
-[ri-mahrk]
-.footnote[Go to directly to [project site](https://github.com/gnab/remark)]
+# Remark
+[ riiid 향 첨가 ]
+.footnote.pull-right[🍴  on [github](https://github.com/riiid/remark)]
 
 ---
-## What is it and why should I be using it?
+class: center, middle, inverse1
+# Riiid
+
+---
+class: center, middle, inverse2
+# Flavored
+
+---
+class: center, middle, inverse3
+# Remark !!
+
+---
+background-image: url(img/renote_back_color_none.jpg)
+# Title with Background
+
+---
+background-image: url(img/renote_back_black_none.jpg)
+# Title with Background
 
 ---
 layout: false
@@ -24,11 +39,11 @@ layout: false
 
 - Syntax highlighting, supporting a range of languages
 
-- Slide scaling, thus similar appearance on all devices / resolutions .red[*]
+- Slide scaling, thus similar appearance on all devices / resolutions .pink[*]
 
 - Touch support for smart phones and pads, i.e. swipe to navigate slides
 
-.footnote[.red[*] At least browsers try their best]
+.footnote[.pink[*] At least browsers try their best]
 ]
 
 ---
@@ -47,9 +62,9 @@ If your ideal slideshow creation workflow contains any of the following steps:
 
 - Share with and show to everyone
 
-Then remark might be perfect for your next.red[*] slideshow!
+Then remark might be perfect for your next.indigo[*] slideshow!
 
-.footnote[.red[*] You probably want to convert existing slideshows as well]
+.footnote[.indigo[*] You probably want to convert existing slideshows as well]
 ]
 ---
 .left-column[
@@ -76,11 +91,11 @@ As the slideshow is contained in a plain file, you may:
 - Easily collaborate with others, keeping track of changes using your favourite SCM tool, like Git or Mercurial
 ]
 ---
-template: inverse
-
+class: inverse1
 ## How does it work, then?
 ---
 name: how
+class: inverse1
 
 .left-column[
   ## How does it work?
@@ -118,6 +133,7 @@ Regular Markdown rules apply with only a single exception:
 Have a look at the [Markdown website](http://daringfireball.net/projects/markdown/) if you're not familiar with Markdown formatting.
 ]
 ---
+class: inverse1
 .left-column[
   ## How does it work?
   ### - Markdown
@@ -150,10 +166,10 @@ A simple HTML document is needed for hosting the styles, Markdown and the genera
 You may download remark to have your slideshow not depend on any online resources, or reference the [latest version](http://remarkjs.com/downloads/remark-latest.min.js) online directly.
 ]
 ---
-template: inverse
-
+class: inverse2
 ## Of course, Markdown can only go so far.
 ---
+class: inverse2
 .left-column[
   ## Markdown extensions
 ]
@@ -168,6 +184,7 @@ To help out with slide layout and formatting, a few Markdown extensions have bee
 ]
 
 ---
+class: inverse2
 .left-column[
   ## Markdown extensions
   ### - Slide properties
@@ -195,6 +212,7 @@ Slide properties serve multiple purposes:
 See the [complete list](https://github.com/gnab/remark/wiki/Markdown#slide-properties) of slide properties.
 ]
 ---
+class: inverse2
 .left-column[
   ## Markdown extensions
   ### - Slide properties
@@ -216,6 +234,7 @@ Resulting HTML extract:
 ```
 ]
 ---
+class: inverse2
 .left-column[
   ## Markdown extensions
   ### - Slide properties
@@ -248,6 +267,7 @@ A number of highlighting [styles](https://github.com/gnab/remark/wiki/Configurat
 
 ]
 ---
+class: inverse3
 .left-column[
   ## Presenter mode
 ]
@@ -263,6 +283,7 @@ following features is provided:
 - Cloning of slideshow for viewing on extended display
 ]
 ---
+class: inverse3
 .left-column[
   ## Presenter mode
   ### - Inline notes
@@ -297,6 +318,7 @@ Congratulations, you just toggled presenter mode!
 
 Now press __P__ to toggle it back off.
 ---
+class: inverse3
 .left-column[
   ## Presenter mode
   ### - Inline notes
@@ -317,8 +339,6 @@ Pressing __C__ will open a cloned view of the current slideshow in a new
 browser window.
 ]
 ---
-template: inverse
-
 ## It's time to get started!
 ---
 .left-column[
@@ -335,7 +355,6 @@ For more information on using remark, please check out the [wiki](https://github
 ]
 ---
 name: last-page
-template: inverse
 
 ## That's all folks (for now)!
 
