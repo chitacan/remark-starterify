@@ -4,7 +4,7 @@
 
 ## Usage
 
-Make sure you have [node](https://nodejs.org/), [node-gyp](https://github.com/TooTallNate/node-gyp), [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), [bower](http://bower.io/#install-bower) :hand:
+Make sure you have [node](https://nodejs.org/), [gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md), [bower](http://bower.io/#install-bower) :hand:
 
 Before to get started, clone this project. (remove `./git` to fresh start)
 
