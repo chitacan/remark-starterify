@@ -1,7 +1,7 @@
 {
   "name": "remark-starterify",
   "version": "0.0.1",
-  "description": "",
+  "description": ":rocket: Fast develop & deploy remark slideshow.",
   "main": "app.js",
   "repository": {
     "type": "git",
