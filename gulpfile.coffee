@@ -71,7 +71,7 @@ gulp.task 'browserify', ->
     .pipe source P.bundle
     .pipe buffer()
     # append remark.min.js
-    .pipe addsrc P.remark
+    .pipe addsrc DEPS
     .pipe concat P.bundle
     .pipe sourcemaps.init loadMaps: true
     .pipe uglify()
