@@ -1,6 +1,6 @@
-@import url(//fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
 
 /* Color Palette (from color_system_v20150129.png) */
 $C01   : #8065e4; // purple
@@ -40,7 +40,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Yanone Kaffeesatz';
+  font-family: 'hanna';
   font-weight: 400;
   margin-bottom: 0;
   color: $C10;
@@ -54,6 +54,7 @@ h1, h2, h3 {
   h1 { font-size: 3em; }
   h2 { font-size: 2em; }
   h3 { font-size: 1.6em; }
+  p  { line-height: 1.5em; }
 }
 
 .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
@@ -128,4 +129,3 @@ code {
   float: right;
   padding-top: 1em;
 }
-
