@@ -24,7 +24,7 @@ reload = browserSync.reload
 P =
   app    : './app/scripts/app.coffee'
   scss   : './app/styles/main.scss'
-  slide  : './app/content/slide.md'
+  slide  : './app/content/*.md'
   image  : './app/images/*'
   bundle : 'app.js'
   distJs : 'dist/js'
