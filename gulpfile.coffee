@@ -118,5 +118,4 @@ gulp.task 'deploy', ['build', 'browserify'],  ->
   gulp.src './dist/**/*'
     .pipe deploy()
 
-gulp.task 'default', ->
-  console.log 'Run "gulp watch or gulp build"'
+gulp.task 'default', ['watch']
